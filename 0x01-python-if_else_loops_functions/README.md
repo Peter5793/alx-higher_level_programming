@@ -1,4 +1,4 @@
-# Python -if/else, loops, functions
+# Python -if/else, loops, functions 🎃
 ### Description 
 The folder consists of projects that are aimed at proper understanding of ```if```, ```for loops``` and building ```functions```
 ### Projects
