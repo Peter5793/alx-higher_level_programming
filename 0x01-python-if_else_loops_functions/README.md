@@ -29,3 +29,9 @@ Function that prints string in uppercase
 ```def isupper(str)```
 #### 9. Print last digit of a number
 ```def print_last_digit(number)```
+#### 10. Addition
+Function that adds two integers
+```def add(a,b)```
+#### 11.Power function
+Function that computes ```a``` to the power of ```b```
+```def pow(a,b)```
