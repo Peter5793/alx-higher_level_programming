@@ -25,5 +25,7 @@ The last number should be followed by a new line
 Function that checks for lowercase
 ```def islower(c)```
 #### 8. Function for uppercase
-Function that checks for uppercase
-```def isupper(c)```
+Function that prints string in uppercase
+```def isupper(str)```
+#### 9. Print last digit of a number
+```def print_last_digit(number)```
