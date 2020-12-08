@@ -4,9 +4,8 @@ The folder consists of projects that are aimed at proper understanding of ```if`
 ### Projects
 1. Positive Number
 #### Description
-This program will assign a random signed number to the variable number each time it is executed. Complete the source code in order to print whether the number stored in the variable number is positive or negative.
-
-
+This program will assign a random signed number to the variable number each time it is executed.
+.[Source code].(https://github.com/Peter5793/alx-higher_level_programming/blob/master/0x01-python-if_else_loops_functions/0-positive_or_negative.py)
 The variable number will store a different value every time you will run this program
 You don’t have to understand what import, random. randint do. Please do not touch this code
 The output of the program should be:
