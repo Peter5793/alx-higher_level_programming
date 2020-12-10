@@ -9,4 +9,4 @@ In this project directory we shall be looking at:
 6. How to use command line arguments in Python Programs
 
 #### Task 1 📝
-A program that imports the function ```def add(a, b):```  from the file  ```add_0.py```` and prints the result of the addition ```1 + 2 = 3```
+A program that imports the function ```def add(a, b)```  from the file  ```add_0.py```:and prints the result of the addition ```1 + 2 = 3```
