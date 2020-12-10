@@ -18,3 +18,17 @@ A program that prints the results of the addition of all arguments
 Program that prints the number of and the lists of it arguments
 #### Task 5
 Program that imports a variable ```a``` from the file ```variable_load_5.py``` and prints its value.
+#### Task 6 📊
+A program that imports all functions from the file ```calculator_1.py``` and handles basic operations.
+Usage:```./100-my_calculator.py a operator b```
+If the number of arguments is not 3, your program has to:
+print ```Usage: ./100-my_calculator.py <a> <operator> <b>``` followed with a new line
+exit with the value ```1```
+```operator``` can be:
+```+``` for addition
+```-``` for subtraction
+```*``` for multiplication
+```/``` for division
+If the operator is not one of the above:
+print ```Unknown operator. Available operators: +, -, * and /``` followed with a new line
+exit with the value ```1```
