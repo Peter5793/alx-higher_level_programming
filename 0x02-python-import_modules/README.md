@@ -16,3 +16,5 @@ A program that imports functions from the file  ```calculator_1.py```, does some
 A program that prints the results of the addition of all arguments
 #### Task 4
 Program that prints the number of and the lists of it arguments
+#### Task 5
+Program that imports a variable ```a``` from the file ```variable_load_5.py``` and prints its value.
