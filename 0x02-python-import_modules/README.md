@@ -32,3 +32,6 @@ exit with the value ```1```
 If the operator is not one of the above:
 print ```Unknown operator. Available operators: +, -, * and /``` followed with a new line
 exit with the value ```1```
+#### Task 7
+ A program that prints ```#pythoniscool```, followed by a new line, in the standard output.
+No use of ```print``` or ```eval``` or ```open``` or  ```import sys``` in your file  ```101-easy_print.py```
