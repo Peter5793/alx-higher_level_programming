@@ -1,6 +1,6 @@
 #!/usr/bin/python3
 if __name__ == "__main__":
-    from calculator_1 import *
+    from calculator_1 import add, sub, mul, div
     from sys import argv
     if len(argv) != 4:
         print("Usage: ./100-my_calculator.py <a> <operator> <b>")
@@ -17,5 +17,5 @@ if __name__ == "__main__":
     elif op == '/':
         print("{:d} {} {:d} = {:d}".format(a, op, b, div(a, b)))
     else:
-        print("Unknown operator. Available operator: + , -, *  and /")
+        print("Unknown operator. Available operator: +, -, * and /")
         exit(1)
