@@ -1,6 +1,6 @@
-# Python - More Data Structures: Set, Dictionary
+# Python - More Data Structures: Set, Dictionary📕
 
-## Objectives
+## Objectives 🏆🏆
  * What are set and how to use them
  * What are the most common methods of set and how to use them
  * When to use sets versus lists
