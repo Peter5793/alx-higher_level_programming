@@ -25,3 +25,4 @@ Program                      | Description
 6-print_sorted_dictionary.py | Prints a dictionary by ordered keys
 7-update_dictionary.py       | Update a dictionary
 8-simple_delete.py           | Deletes key in dictionary
+9-multiply_by_2.py           | Multiply each value in dictionary by 2
