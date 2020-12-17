@@ -26,3 +26,5 @@ Program                      | Description
 7-update_dictionary.py       | Update a dictionary
 8-simple_delete.py           | Deletes key in dictionary
 9-multiply_by_2.py           | Multiply each value in dictionary by 2
+10-best_score.py             | Returns a key with the biggest interger value
+11-multiply_list_map.py      | Returns list with all values multiplied 
