@@ -23,3 +23,5 @@ Prototype: ```def safe_print_division(a, b):```
 Prototype: ```def list_division(my_list_1, my_list_2, list_length):```
 6. Function that raises a type exception
 Prototype: ```def raise_exception():```
+7. Function that raises a name exception with a message
+Prototype ```def raise_exception_msg(message=""):```
