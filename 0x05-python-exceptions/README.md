@@ -19,3 +19,5 @@ Prototype ```def safe_print_list_integers(my_list=[], x=0):```
 Prototype ```def safe_print_integer(value):```
 4. Division of two intergers
 Prototype: ```def safe_print_division(a, b):```
+5. A function that divides element by element 2 lists.
+Prototype: ```def list_division(my_list_1, my_list_2, list_length):```
