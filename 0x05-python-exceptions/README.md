@@ -17,3 +17,5 @@ Prototype: ```def safe_print_list(my_list=[], x = 0```
 Prototype ```def safe_print_list_integers(my_list=[], x=0):```
 3. A function that prints an integer with ```"{:d}".format()```
 Prototype ```def safe_print_integer(value):```
+4. Division of two intergers
+Prototype: ```def safe_print_division(a, b):```
