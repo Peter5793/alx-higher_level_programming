@@ -25,3 +25,4 @@
 ### Tasks
 1. Writing an empty class ```square``` that defined a square
 2. Class ```Square``` that defines a square
+3. Class ```Square``` that defines a square: based on ```1-square.py```
