@@ -10,6 +10,5 @@
 * How to find edge cases
 
 ### Tasks
----------------------|--------------------
-* Interger addition  | * Function that adds two integers ```def add_integer(a, b=
-                     |  98```
+
+*  Integer addition - Function that adds two integers ```def add_integer(a, b= 98)```
