@@ -22,25 +22,20 @@ Usage
 
 >>> print_square(-1)
 Traceback (most recent call last):
-...
+   ...
 ValueError: size must be >=0
 
 >>> print_square(5.5)
 Traceback (most recent call last):
-...
+    ...
 TyperError: size must be an integer
 
 >>> print_square('9')
 Traceback (most recent call last):
-...
+   ...
 TypeError: size must an integer
 
 >>> print_square({77})
 Traceback (most recent call last):
-...
-TypeError: size must be an integer
-
->>>print_square((1,5))
-Traceback (most recent call last)
-...
+   ...
 TypeError: size must be an integer
