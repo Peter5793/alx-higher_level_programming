@@ -6,12 +6,12 @@ Using ``my_list``
 
 my_list is a class that inherits from integer, and prints out a sorted list
 
->>> myList = __import__('1-my_list).myList
+>>> MyList = __import__('1-my_list).MyList
 
 Usage:
 
 create a new list
->>> n_list = myList()
+>>> n_list = MyList()
 >>> n_list.append(1)
 >>> n_list.append(5)
 >>> n_list.append(2)
@@ -35,6 +35,6 @@ n_list[3] = 12
 [1, 2, 3, 5, 6, 12]
 
 print empty list
->>> n_list = myList()
+>>> n_list = MyList()
 >>> n_list.print_sorted()
 []

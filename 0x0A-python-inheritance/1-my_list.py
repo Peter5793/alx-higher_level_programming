@@ -4,7 +4,7 @@ class that inherits from list
 """
 
 
-class myList(list):
+class MyList(list):
     """
     myList is a class with public method print_sorted
     """
