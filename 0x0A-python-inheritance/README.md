@@ -17,5 +17,6 @@
 #### Task
 | File          | Description|
 | ------------- | -----------|
-| [0-lookup.py] | Returns the list all available attibutesof an object |
+| [0-lookup.py].() | Returns the list all available attibutesof an object |
+| [1-my_list.py.() | Prints a sorted list |
 |
