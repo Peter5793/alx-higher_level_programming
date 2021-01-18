@@ -19,3 +19,4 @@
 | ------------- | -----------|
 | [0-lookup.py]() | Returns the list all available attibutesof an object |
 | [1-my_list.py]() | Prints a sorted list |
+| [2-is_same_class.py]() | checks whether an object is the SAME	type |
