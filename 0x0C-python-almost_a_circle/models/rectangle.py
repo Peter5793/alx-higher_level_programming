@@ -79,3 +79,13 @@ class Rectangle(Base):
         area attribute
         """
         return self.__width * self.__height
+
+    def display(self):
+        """
+        prints the rectangle instance
+        """
+        print('\n' * self.__y, end='')
+        for i in range(self.__height):
+            print(' ' * self.__x, end='')
+            print('#' * self.__width)
+
