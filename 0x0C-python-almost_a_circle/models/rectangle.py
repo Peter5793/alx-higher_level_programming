@@ -94,7 +94,7 @@ class Rectangle(Base):
         return ("[Rectangle] ({}) {}/{} - {}/{}". format
                 (self.id, self.__x, self.__y, self.__width, self.__height))
 
-    def update(self, *args):
+    def update(self, *args, **kwargs):
         """ assign argument to each attriute """
         attrs = ["id", "width", "height", "x", "y"]
         if args is not None and len(args) !=0:
@@ -103,3 +103,7 @@ class Rectangle(Base):
                     break
                 else:
                     setattr(self, attrs[i], args[i])
+        elif kwargs is not None:
+            for key, value in kwargs.items():
+                if key in attrs:
+                    setattr(self, key, value)
