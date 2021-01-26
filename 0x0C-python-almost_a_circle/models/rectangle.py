@@ -93,3 +93,13 @@ class Rectangle(Base):
         """ string method"""
         return ("[Rectangle] ({}) {}/{} - {}/{}". format
                 (self.id, self.__x, self.__y, self.__width, self.__height))
+
+    def update(self, *args):
+        """ assign argument to each attriute """
+        attrs = ["id", "width", "height", "x", "y"]
+        if args is not None and len(args) !=0:
+            for i in range(len(args)):
+                if i >= len(attrs):
+                    break
+                else:
+                    setattr(self, attrs[i], args[i])
