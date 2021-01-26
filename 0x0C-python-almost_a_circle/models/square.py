@@ -15,3 +15,14 @@ class Square(Rectangle):
         """Overloading string method"""
         return ("[Sqaure] ({}) {}/{} - {}".format
                 (self.id, self.x, self.y, self.height))
+
+    @property
+    def size(self):
+        """getter for width"""
+        return self.width
+
+    @size.setter
+    def size(self, size):
+        """size setter"""
+        self.width = size
+        self.height = size
