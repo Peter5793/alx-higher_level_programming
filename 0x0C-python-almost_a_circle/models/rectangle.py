@@ -49,7 +49,7 @@ class Rectangle(Base):
     @property
     def x(self):
         """ getter for x """
-        return self.__x 
+        return self.__x
 
     @x.setter
     def x(self, value):
@@ -89,3 +89,7 @@ class Rectangle(Base):
             print(' ' * self.__x, end='')
             print('#' * self.__width)
 
+    def __str__(self):
+        """ string method"""
+        return ("[Rectangle] ({}) {}/{} - {}/{}". format
+                (self.id, self.__x, self.__y, self.__width, self.__height))
