@@ -6,7 +6,7 @@ Using ``my_list``
 
 my_list is a class that inherits from integer, and prints out a sorted list
 
->>> MyList = __import__('1-my_list).MyList
+>>> MyList = __import__('1-my_list').MyList()
 
 Usage:
 
