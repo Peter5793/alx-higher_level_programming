@@ -19,4 +19,4 @@ if __name__ == "__main__":
         print(x)
 
     cur.close()
-    db.close() 
+    db.close()
