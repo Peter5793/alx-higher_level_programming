@@ -1,0 +1,21 @@
+#!/usr/bin/python3
+if __name__ == "__main__":
+    from calculator_1 import *
+    from sys import argv
+    if len(argv) != 4:
+        print("Usage: ./100-my_calculator.py <a> <operator> <b>")
+        exit(1)
+    a = int(argv[1])
+    c = int(argv[3])
+    op = argv[2]
+    if op == '+':
+        print("{:d} {} {:d} = {:d}".format(a, op, c, add(a, b)))
+    elif op == '-':
+        print("{:d} {} {:d} = {:d}".format(a, op, c, sub(a, b)))
+    elif op == '*':
+        print("{:d} {} {:d} = {:d}".format(a, op, c, mul(a, b)))
+    elif op == '/':
+        print("{:d} {} {:d} = {:d}".format(a, op, c, div(a, b)))
+    else:
+        print("Unknown operator. Available operator: + , -, *  and /")
+        exit(1)
