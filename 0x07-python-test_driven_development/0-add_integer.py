@@ -5,17 +5,25 @@ Function that adds two integers
 6
 """
 
+
 def add_integer(a, b=98):
     """
     return the sum of two integers
     """
-    arguments = []
-    for i, params in [(a, 'a'), (b, 'b')]:
-        if isinstance(i, int):
-            arguments.append(i)
-        elif isinstance(i, float):
-            arguments.append(int(i))
-        else:
-            raise TypeError("{} must be an integer".format(params))
 
-    return sum(arguments)
+    if a is None:
+        raise TypeError('a must be an integer')
+
+    elif b is None:
+        raise TypeError('b must be an integer')
+
+    elif not isinstance(a, int) and not isinstance(a, float):
+        raise TypeEror('a must be an integer')
+
+    elif not isinstance(b, int) and not isinstance(b, float):
+        raise TypeError('b must be an integer')
+
+    if(a + b) == float('inf') or (a + b) == -float('inf'):
+        raise OverflowError("NUmber too large")
+    else:
+        return int(a) + int(b)
