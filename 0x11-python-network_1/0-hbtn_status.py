@@ -1,4 +1,5 @@
 #!/usr/bin/python3
+"""fetches the url https://intranet.hbtn.io/status"""
 import urllib.request
 
 if __name__ == "__main__":
