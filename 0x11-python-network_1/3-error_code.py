@@ -2,7 +2,6 @@
 """
 sends a request to the URL and displays the body of the response in utf-8
 """
-
 from sys import argv
 import urllib.request
 import urllib.error
