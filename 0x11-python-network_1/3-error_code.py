@@ -7,7 +7,7 @@ from sys import argv
 import urllib.request
 import urllib.error
 
-if __name__ == '__main__':
+if __name__ == "__main__":
     req = urllib.request.Request(argv[1])
     try:
         with urllib.request.urlopen(req) as response:
