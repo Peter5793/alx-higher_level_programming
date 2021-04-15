@@ -8,3 +8,16 @@
 * How to make HTTP POST/PUT/etc. request
 * How to fetch JSON resources
 * How to manipulate data from an external service
+
+----------------------------------------------------------------------------------
+
+### Tasks
+Script that fetches ```https://intranet.hbtn.io/status```
+
+```
+hp@Peter-Lugalia MINGW64: ~/0x11$ ./0-hbtn_status.py | cat -e
+Body response:$
+    - type: <class 'bytes'>$
+    - content: b'OK'$
+    - utf8 content: OK$
+```
