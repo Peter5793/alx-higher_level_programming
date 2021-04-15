@@ -1,6 +1,5 @@
 #!/usr/bin/python3
-"""
-display the body of the response
+""" Takes in a URL, sends a request to the URL and displays the body of the response (decoded in utf-8).
 """
 
 from sys import argv
