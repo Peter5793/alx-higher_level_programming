@@ -8,7 +8,7 @@ import requests
 
 if __name__ == "__main__":
     url = argv[1]
-    r = request.get(url)
+    r = requests.get(url)
     try:
         r.raise_for_status()
         print(r.text)
