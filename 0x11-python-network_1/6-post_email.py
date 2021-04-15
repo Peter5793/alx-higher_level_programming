@@ -4,7 +4,7 @@ takes the URL and email address and sends POST requests  to passed URL with
 email parameter and displays body of response
 """
 from sys import argv
-import requets
+import requests
 
 if __name__ == "__main__":
     url = argv[1]
