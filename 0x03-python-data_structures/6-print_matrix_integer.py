@@ -3,10 +3,10 @@ def print_matrix_integer(matrix=[[]]):
     if matrix is None:
         print()
     else:
-        for i in range(len(matrix)):
-            for j in range(len(matrix[i])):
-                if i != len(matrix[i])-1:
-                    print("{:d} ".format(matrix[i][j]), end='')
+        for row in range(len(matrix)):
+            for column in range(len(matrix)):
+                if row != len(matrix[row])-1:
+                    print("{:d} ".format(matrix[row][column]), end='')
                 else:
-                    print("{:d}".format(matrix[i][j]), end='')
+                    print("{:d}".format(matrix[row][column]), end='')
             print()
