@@ -1,6 +1,6 @@
+#!/usr/bin/python
 """
 divides all the elemets in a matrix
-
 """
 def matrix_divided(matrix, div):
     """
